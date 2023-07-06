@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> SG-Stainless Steel </title>
-    <link rel="icon" type="image/x-icon" href="stl-removebg-preview.png"/>
+    <link rel="icon" type="image/x-icon" href="stl.png"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
@@ -35,7 +36,7 @@
 
     <section id="services-container">
         <h1 class="h-primary center">Our Services</h1>
-        <div id="services">
+        <div id="services" data-aos="fade-right">
             <div class="box">
                 <img src="img/1.png" alt="">
                 <h2 class="h-secondary center">Fabrication Steel</h2>
@@ -65,7 +66,7 @@
                     <button class="btn1" onclick="myFunction()">Book Now</button>
             </div>
         </div>
-            <div id="services1">
+            <div id="services1" data-aos="fade-left">
                 <div class="box1">
                     <img src="img/4.png" alt="">
                     <h2 class="h-secondary center">Fabrication Steel</h2>
@@ -98,7 +99,7 @@
     </section>
     <section id="client-section">
         <h1 class="h-primary center">Our Clients</h1>
-        <div id="clients">
+        <div id="clients" data-aos="fade-in">
             <div class="client-item">
                 <img src="img/logo1.png" alt="Our Client">
             </div>
@@ -117,7 +118,7 @@
     </section>
 
     <footer>
-        <div class="center">
+        <div class="center" data-aos="fade-up">
             Copyright &copy; www.sgstainlesssteel.com. All rights reserved!
         </div>
     </footer>
@@ -126,5 +127,10 @@
     function myFunction() {
         windows.location.href='contact.html';
     }
+ </script>
+ </script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
  </script>
 </html>
