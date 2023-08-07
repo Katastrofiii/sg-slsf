@@ -224,3 +224,7 @@ footer{
     color: black;
     cursor: pointer;
 }
+.btn:hover {
+    color: black;
+    background: lightblue;
+}
