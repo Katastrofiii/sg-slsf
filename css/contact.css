@@ -108,3 +108,8 @@ tr td :first-child {
 tr td {
     padding-top: 10px;
 }
+@media (max-width: 600px) {
+      tr td {
+        font-size: 5px;
+      }
+}
