@@ -34,21 +34,20 @@ h1 {
     display: flex;
 }
 .contact-left {
-    flex-basis: 60%;
+    flex: 1;
     padding: 40px 60px;
+    width: 0;
 }
 .contact-right {
-    flex-basis: 40%;
+    flex: 1;
     padding: 40px ;
     background: lightblue;
+    width: 0;
 }
 .container p {
     margin-bottom: 40px;
 }
-h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+
 .input-row {
     display: flex;
     justify-content: space-between;
@@ -98,7 +97,7 @@ button:hover {
 }
 
 .contact-right h3 {
-    color: #fff;
+    color: black;
     font-weight: 600;
     margin-bottom: 30px;
 }

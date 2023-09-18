@@ -213,6 +213,7 @@ footer{
     font-size: 1.5rem;
     border-radius: 20px;
     cursor:pointer;
+    transition: box-shadow 1s, background 1s, color 1s;
 }
 
 .center{
@@ -227,12 +228,40 @@ footer{
     background-color: lightgray;
     color: black;
     cursor: pointer;
+    transition: box-shadow 1s, background 1s, color 1s;
+   
 }
 .btn:hover {
     color: black;
     background: lightblue;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 .btn1:hover {
     color: black;
     background: lightblue;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
+.btn:active {
+    opacity: 0.3;
+    transition: opacity 1s;
+}
+.btn1:active {
+    opacity: 0.3;
+    transition: opacity 1s;
+}
+
+.style {
+    border: 1px solid black;
+    background: rgb(202, 201, 201);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
