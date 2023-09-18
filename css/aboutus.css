@@ -106,6 +106,9 @@ html {
     width: 100%;
     display: block;
   }
+    .card {
+    width: 150px;
+  }
 }
 
 /* utilities   */
