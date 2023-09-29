@@ -14,6 +14,9 @@
 </head>
 
 <body>
+
+
+    <div id="pre-loader"></div>
     <nav id="navbar">
         <div id="logo">
             <img src="stl.png" alt="">
@@ -160,10 +163,16 @@
     <script>
        function myFunction() {
            window.location.href='contact.html';
-           
-
+        
        }
        AOS.init();
+
+
+       var loader = document.getElementById("pre-loader");
+
+       window.addEventListener("load", function() {
+         loader.style.display = "none";
+       }) 
     </script>
 
 </body>
